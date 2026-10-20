@@ -45,3 +45,7 @@ def average_transaction(transactions):
     if not transactions:
         return 0
     return round(sum(t["amount"] for t in transactions) / len(transactions), 2)
+
+def total_spent(transactions):
+    """Return total money spent as a positive number (ignoring income)."""
+    return round(sum(-t["amount"] for t in transactions if t["amount"] < 0), 2)
