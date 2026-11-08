@@ -6,13 +6,13 @@ release goes first. Keep each entry to what a user would notice.
 ## Format
 
 ```
-## v1.0 - YYYY-MM-DD
+## v1.0 - 2026-11-07
+
 ### Added
-- Short, user-facing description of a new feature (link the ticket #).
+- Added an expense-deletion feature to remove incorrect budget entries (#4).
+
 ### Fixed
-- What was broken and now works.
-### Changed
-- Anything that behaves differently than before.
+- Fixed a bug where empty inputs caused the terminal script to crash.
 ```
 
 <!-- Your first real release note goes below this line. -->
